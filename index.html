@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html>
+    <html lang="en" data-bs-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ice Cream</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+  <!-- fonts -->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+
+
+  <!--font awesome -->
+
+  <script src="https://kit.fontawesome.com/b76211a30a.js" crossorigin="anonymous"></script>
+
+  <!-- bootstrap -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+<header>
+  <div class="hr-divider">
+  <ul class="nav nav-pills hr-divider-content hr-divider-nav">
+    <li class="nav-item">
+      <a class="nav-link active" href="#">Ice Cream</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">New Tab</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">New Tab</a>
+    </li>
+  </ul>
+</div></header>
+  <section id="title">
+
+    <div class="container-fluid">
+
+
+
+      <!-- Nav Bar -->
+      <div class="navigation">
+
+
+        <nav class="navbar navbar-expand-lg navbar-dark">
+          <a class="navbar-brand tincat" href="">Cream Sundae</a>
+
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <div class="col-lg-12">
+            <ul class="nav nav-pills nav-fill gap-2 p-1 small bg-primary rounded-5 shadow-sm" id="pillNav2" role="tablist" style="--bs-nav-link-color: var(--bs-white); --bs-nav-pills-link-active-color: var(--bs-primary); --bs-nav-pills-link-active-bg: var(--bs-white);">
+              <li class="nav-item" role="presentation">
+                <button class="nav-link active rounded-5" id="home-tab2" data-bs-toggle="tab" type="button" role="tab" aria-selected="true">Home</button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="nav-link rounded-5" id="profile-tab2" data-bs-toggle="tab" type="button" role="tab" aria-selected="false">Profile</button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="nav-link rounded-5" id="contact-tab2" data-bs-toggle="tab" type="button" role="tab" aria-selected="false">Contact</button>
+              </li>
+            
+            </ul>
+          </div>
+          </div>
+        </nav>
+
+      </div>
+
+
+      <!-- Title -->
+      <div class="row">
+
+        <div class="col-lg-6">
+          <h1>Chill and Vibe with Ice Crean side.</h1>
+          <button type="button" class="btn btn-dark btn-lg download-button"><i class="fab fa-apple"></i> Apple Store </button>
+          <button type="button" class="btn btn-outline-light btn-lg download-button"><i class="fab fa-google-play"></i> Google Play </button>
+        </div>
+        <div class="col-md-6">
+          <img class="iphone6" src="1.png" alt="">
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- Features -->
+
+  <section id="features">
+    <div class="container fluid forthefeatures">
+      <div class="row">
+        <div class="col-lg-4 f1">
+
+          <i class="fas fa-check-circle"></i>
+          <h3 class="fontf"> Fast Transaction.</h3>
+          <p class="pf">So easy to use, with e-wallet.</p>
+
+        </div>
+        <div class="col-lg-4 f1">
+          <i class="fas fa-bullseye"></i>
+          <h3 class="fontf">Security!</h3>
+          <p class="pf">Insure that all information is safe.</p>
+        </div>
+
+        <div class="col-lg-4 f1">
+          <i class="fas fa-heart"></i>
+          <h3 class="fontf">Best Seller.</h3>
+          <p class="pf">Find the love and chill with Ice Cream Sundae.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Testimonials -->
+
+  <section id="testimonials">
+
+    <div id="testimonial-carousels" class="carousel slide" data-ride="false">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <h2>I Love Chilling with my Partner Sundae.</h2>
+          <img class="testimonial-image" src="2.png" alt="cat-profile">
+          <em> Sundae, Chill Day</em>
+        </div>
+
+        <div class="carousel-item">
+          <h2 class="testimonial-text">Nothing is more Fun with Best Buddies and Family, Enjoy with Ice Cream Sundae.</h2>
+          <img class="testimonial-image" src="3.png" alt="lady-profile">
+          <em>Ice Chill Day</em>
+        </div>
+
+        <a class="carousel-control-prev" href="#testimonial-carousels" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#testimonial-carousels" role="button" data-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </a>
+        
+      </div>
+
+
+  </section>
+
+
+  <!-- Press -->
+
+  <section id="press">
+    <img class="press-logo" src="4.png" alt="tc-logo">
+    <img class="press-logo" src="5.png" alt="tnw-logo">
+    <img class="press-logo" src="6.png" alt="biz-insider-logo">
+    <img class="press-logo" src="7.png" alt="mashable-logo">
+    
+ </form>
+
+  <!-- Pricing -->
+
+  <section id="pricing">
+
+    <h2>Best Ice Cream Sundae in Asia!</h2>
+    <p>All things deserve to chill with Ice Cream Sundae.</p>
+
+
+
+
+    <div class="row">
+
+      <div class="padding-column col-lg-4 col-md-6">
+        <div class="card-deck">
+          <div class="card">
+            <div class="card-header">
+              <h3>Cream Sundae</h3>
+            </div>
+            <div class="card-body">
+              <h2>₱80</h2>
+              <p>+1 loyalty card</p>
+              <p>+1 cup a Day</p>
+              <p>With unli Topping</p>
+              <button type="button" class="btn btn-lg btn-pill btn-info">Order Now</button>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+        <div class="padding-column col-lg-4 col-md-6">
+          <div class="card">
+            <div class="card-header">
+              <h3>Float Cream</h3>
+            </div>
+
+            <div class="card-body">
+              <h2>₱250</h2>
+              <p>Unlimited Topping</p>
+              <p>Kiss with Cashier(male only)</p>
+              <p>+1 Loyalty card</p>
+              <button type="button" class="btn btn-lg btn-pill btn-success">Order Now</button>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="padding-column col-lg-4 col-md-12">
+          <div class="card">
+            <div class="card-header">
+              <h3>Bundle Sundae</h3>
+            </div>
+
+            <div class="card-body">
+              <h2>₱300</h2>
+              <p>Float with Cream Sundae</p>
+              <p>+5 Loyalty card</p>
+              <p>Unlimited Toppings</p>
+              <p>free +1 Burger</p>
+              <button type="button" class="btn btn-lg btn-pill btn-primary">Order Now</button>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+
+  </section>
+
+<section><link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <style>
+    .bd-placeholder-img {
+      font-size: 1.125rem;
+      text-anchor: middle;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      user-select: none;
+    }
+
+    @media (min-width: 768px) {
+      .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+      }
+    }
+
+    .b-example-divider {
+      width: 100%;
+      height: 3rem;
+      background-color: rgba(0, 0, 0, .1);
+      border: solid rgba(0, 0, 0, .15);
+      border-width: 1px 0;
+      box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+    }
+
+    .b-example-vr {
+      flex-shrink: 0;
+      width: 1.5rem;
+      height: 100vh;
+    }
+
+    .bi {
+      vertical-align: -.125em;
+      fill: currentColor;
+    }
+
+    .nav-scroller {
+      position: relative;
+      z-index: 2;
+      height: 2.75rem;
+      overflow-y: hidden;
+    }
+
+    .nav-scroller .nav {
+      display: flex;
+      flex-wrap: nowrap;
+      padding-bottom: 1rem;
+      margin-top: -1px;
+      overflow-x: auto;
+      text-align: center;
+      white-space: nowrap;
+      -webkit-overflow-scrolling: touch;
+    }
+
+    .btn-bd-primary {
+      --bd-violet-bg: #712cf9;
+      --bd-violet-rgb: 112.520718, 44.062154, 249.437846;
+
+      --bs-btn-font-weight: 600;
+      --bs-btn-color: var(--bs-white);
+      --bs-btn-bg: var(--bd-violet-bg);
+      --bs-btn-border-color: var(--bd-violet-bg);
+      --bs-btn-hover-color: var(--bs-white);
+      --bs-btn-hover-bg: #6528e0;
+      --bs-btn-hover-border-color: #6528e0;
+      --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
+      --bs-btn-active-color: var(--bs-btn-hover-color);
+      --bs-btn-active-bg: #93a2e2;
+      --bs-btn-active-border-color: #5a23c8;
+    }
+
+    .bd-mode-toggle {
+      z-index: 1500;
+    }
+
+    .bd-mode-toggle .dropdown-menu .active .bi {
+      display: block !important;
+    }
+  </style>
+
+  
+</head>
+<body>
+  <svg xmlns="http://www.w3.org/2000/svg" class="d-none">
+    <symbol id="check2" viewBox="0 0 16 16">
+      <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
+    </symbol>
+    <symbol id="circle-half" viewBox="0 0 16 16">
+      <path d="M8 15A7 7 0 1 0 8 1v14zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16z"/>
+    </symbol>
+    <symbol id="moon-stars-fill" viewBox="0 0 16 16">
+      <path d="M6 .278a.768.768 0 0 1 .08.858 7.208 7.208 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277.527 0 1.04-.055 1.533-.16a.787.787 0 0 1 .81.316.733.733 0 0 1-.031.893A8.349 8.349 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.752.752 0 0 1 6 .278z"/>
+      <path d="M10.794 3.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387a1.734 1.734 0 0 0-1.097 1.097l-.387 1.162a.217.217 0 0 1-.412 0l-.387-1.162A1.734 1.734 0 0 0 9.31 6.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387a1.734 1.734 0 0 0 1.097-1.097l.387-1.162zM13.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.156 1.156 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.156 1.156 0 0 0-.732-.732l-.774-.258a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732L13.863.1z"/>
+    </symbol>
+    <symbol id="sun-fill" viewBox="0 0 16 16">
+      <path d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0zm0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13zm8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5zM3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8zm10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0zm-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707zM4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708z"/>
+    </symbol>
+  </svg>
+
+  <div class="dropdown position-fixed bottom-0 end-0 mb-3 me-3 bd-mode-toggle">
+    <button class="btn btn-bd-primary py-2 dropdown-toggle d-flex align-items-center"
+            id="bd-theme"
+            type="button"
+            aria-expanded="false"
+            data-bs-toggle="dropdown"
+            aria-label="Toggle theme (auto)">
+  
+    </button>
+    <ul class="dropdown-menu dropdown-menu-end shadow" aria-labelledby="bd-theme-text">
+      <li>
+        <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="light" aria-pressed="false">
+          <svg class="bi me-2 opacity-50 theme-icon" width="1em" height="1em"><use href="#sun-fill"></use></svg>
+          Light
+          <svg class="bi ms-auto d-none" width="1em" height="1em"><use href="#check2"></use></svg>
+        </button>
+      </li>
+      <li>
+        <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="dark" aria-pressed="false">
+          <svg class="bi me-2 opacity-50 theme-icon" width="1em" height="1em"><use href="#moon-stars-fill"></use></svg>
+          Dark
+          <svg class="bi ms-auto d-none" width="1em" height="1em"><use href="#check2"></use></svg>
+        </button>
+      </li>
+      <li>
+        <button type="button" class="dropdown-item d-flex align-items-center active" data-bs-theme-value="auto" aria-pressed="true">
+          <svg class="bi me-2 opacity-50 theme-icon" width="1em" height="1em"><use href="#circle-half"></use></svg>
+          Auto
+          <svg class="bi ms-auto d-none" width="1em" height="1em"><use href="#check2"></use></svg>
+        </button>
+      </li>
+    </ul>
+  </div>
+  
+<header data-bs-theme="dark">
+<div class="collapse text-bg-dark" id="navbarHeader">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-8 col-md-7 py-4">
+        <h4>About</h4>
+        <p class="text-body-secondary">Add some information about the album below, the author, or any other background context. Make it a few sentences long so folks can pick up some informative tidbits. Then, link them off to some social networking sites or contact information.</p>
+      </div>
+      <div class="col-sm-4 offset-md-1 py-4">
+        <h4>Contact</h4>
+        <ul class="list-unstyled">
+          <li><a href="#" class="text-white">Follow on Twitter</a></li>
+          <li><a href="#" class="text-white">Like on Facebook</a></li>
+          <li><a href="#" class="text-white">Email me</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="navbar navbar-dark bg-dark shadow-sm">
+  <div class="container">
+    <a href="#" class="navbar-brand d-flex align-items-center">
+      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true" class="me-2" viewBox="0 0 24 24"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></svg>
+      <strong>  CEO Contacts</strong>
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  </div>
+</div>
+</header>
+<main>
+
+<section class="py-5 text-center container">
+  <div class="row py-lg-5">
+    <div class="col-lg-6 col-md-8 mx-auto">
+      <h1 class="fw-light">CEO of Ice Cream Sundae</h1>
+      <p class="lead text-body-secondary"> Im Joshua De Chavez Along side with Angelo Delos Reyes and Charles Jasper Cerrudo.</p>
+      <p>
+        <a href="#" class="btn btn-primary my-2">Log-in</a>
+        <a href="#" class="btn btn-secondary my-2">Sign-up</a>
+      </p>
+    </div>
+  </div>
+</section>
+
+<div class="album py-5 bg-body-tertiary">
+  <div class="container">
+
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+      <div class="col">
+        <div class="card shadow-sm">
+          <img src="8.jpg" class="bd-placeholder-img card-img-top" width="100%" height="225">
+          <div class="card-body">
+            <p class="card-text">I'm Joshua De Chavez founder of Ice Cream Sundae.</p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                <button type="button" class="btn btn-sm btn-outline-secondary">Visit</button>
+                <button type="button" class="btn btn-sm btn-outline-secondary">Award</button>
+              </div>
+              <small class="text-body-secondary">CEO</small>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card shadow-sm">
+          <img src="10.jpg" class="bd-placeholder-img card-img-top" width="100%" height="225">
+          <div class="card-body">
+            <p class="card-text">Angelo Delos Reyes CO-CEO of Ice Cream Sundae.</p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Visit</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Award</button>
+              </div>
+              <small class="text-body-secondary">Co-CEO</small>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card shadow-sm">
+          <img src="9.jpg" class="bd-placeholder-img card-img-top" width="100%" height="225">
+          <div class="card-body">
+            <p class="card-text">Charles Jasper Cerrudo CO-CEO of Ice Cream Sundae.</p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Visit</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Award</button>
+              </div>
+              <small class="text-body-secondary">Co-CEO</small>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+</main></section>
+  <!-- Call to Action -->
+
+  <section id="cta">
+
+    <h3 class="ctah3">Choose to chill even Day is Pain!</h3>
+    <button class="btn btn-dark btn-lg ctabtn" type="button"><i class="fab fa-apple"></i> Apple Store</button>
+   <button class="btn btn-light btn-lg ctabtn"type="button"><i class="fab fa-google-play"></i> Google Play</button>
+
+  </section>
+
+
+  <!-- Footer -->
+
+  <footer id="footer">
+   <i class="fab fa-twitter footericon"></i><i class="fab fa-facebook-f footericon"></i> <i class="fab fa-instagram footericon"></i> <i class="fab fa-discord footericon"></i>
+    <p class="copyright">© Copyright 2023 Ice Ceeam</p>
+
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+<br>
+<center><!-- Buttons-->
+
+  <section id="Buttons">
+  
+  <button type="button" class="btn btn-lg btn-pill btn-secondary">Secondary</button>
+  
+  
+  <button type="button" class="btn btn-lg btn-pill btn-warning">Warning</button>
+  <button type="button" class="btn btn-lg btn-pill btn-danger">Danger</button></center>
+<br>
+</body>
+
+</html>
